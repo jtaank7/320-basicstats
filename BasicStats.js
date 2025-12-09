@@ -1,5 +1,5 @@
 class BasicStats {
-    max(nums) {
+    max(nums) { //returns the max of an array of numbers
       let maxValue = nums[0];
       for (let n of nums) {
         if (n > maxValue) {
@@ -9,7 +9,7 @@ class BasicStats {
       return maxValue;
     }
   
-    min(nums) {
+    min(nums) { //returns the min of an array of numbers
       let minValue = nums[0];
       for (let n of nums) {
         if (n < minValue) {
